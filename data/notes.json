@@ -36,5 +36,19 @@
             "fix_summary": "We should not use hashset for Bruteforce Approach this is for optimal approach and I debug this using chatgpt or dry run using pen and paper",
             "flash_tip": "Brute force = outer for + inner while for streak counting and Use Hashset only for Bruteforce Approach."
         }
+    ],
+    "Longest Substring Without Repeating Characters": [
+        {
+            "problem_number": "2",
+            "date": "2025-07-18",
+            "platform": "LeetCode",
+            "status": "Solved",
+            "code": "I have solved this problem using brutefoce approach and optimal approach both",
+            "mistake_highlight": [
+                "No Confusion"
+            ],
+            "fix_summary": "I understand the logic and do dry run with 2 to 3 examples",
+            "flash_tip": "Do more pratice and understand why we are wrting each line of the code after or before, \"THINK LOGICALLY\"."
+        }
     ]
 }

@@ -30,3 +30,13 @@
 - 💡 Flash Tip: Brute force = outer for + inner while for streak counting and Use Hashset only for Bruteforce Approach.
 ---
 
+## 2. Longest Substring Without Repeating Characters
+- 🔢 Problem #: 2
+- 📅 Date: 2025-07-18
+- 🌐 Platform: LeetCode
+- 📍 Status: Solved
+- ⚠️ Mistake: No Confusion
+- 🛠 Fix: I understand the logic and do dry run with 2 to 3 examples
+- 💡 Flash Tip: Do more pratice and understand why we are wrting each line of the code after or before, "THINK LOGICALLY".
+---
+

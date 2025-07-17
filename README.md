@@ -1,5 +1,11 @@
 # 🧠 DSA Diagnosis Tracker
 
+![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
+![Status](https://img.shields.io/badge/status-active-success.svg)
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Last Updated](https://img.shields.io/badge/updated-July_2025-blue)
+
+
 Track your DSA problem-solving journey, log mistakes, fixes, and pro tips — and turn them into a powerful revision and interview prep tool.
 
 ---
@@ -39,19 +45,23 @@ This is a **CLI-based DSA mistake tracker** where you:
 ## 📁 Project Structure
 
 dsa-diagnosis-tracker/
-│
 ├── data/
-│ └── notes.json ← All log data stored here
+│ └── notes.json # Stores all logged problems and reflections
 │
 ├── scripts/
-│ ├── add_note.py ← Add a new problem log
-│ ├── menu.py ← Interactive viewer / filter
-│ ├── search_notes.py ← (Optional) Quick keyword search
-│ └── export_md.py ← Exports logs to Markdown
+│ ├── add_note.py # CLI to log a new DSA struggle
+│ ├── filter_notes.py # Filter logs by keyword, date, or problem number
+│ ├── search_notes.py # Search entries using keyword or index
+│ └── export_md.py # Export notes to a readable Markdown format
 │
-├── DSA_Tracker_Export.md ← Markdown export of all logs
-├── README.md ← You're reading this
-└── .gitignore ← (Optional) Ignore temp/IDE files
+├── screenshots/
+│ ├── add_note_cli.png # Screenshot: CLI log input
+│ └── markdown_export.png # Screenshot: Markdown preview output
+│
+├── README.md # Documentation and usage
+├── requirements.txt # (Optional) Python dependencies
+├── .gitignore # Ignore unnecessary files (e.g., pycache)
+└── LICENSE # License for open-source use
 
 🧪 Example Markdown Export
 ## 1. Longest Consecutive Sequence
@@ -65,6 +75,7 @@ dsa-diagnosis-tracker/
 ---
 
 💡 Why Use This?
+
 ✅ Helps with:
 
 Interview prep & debugging memory
@@ -82,8 +93,27 @@ Topic-wise markdown exports
 Web dashboard using Streamlit or React
 
 Sync with LeetCode API or GitHub Gists
+---
 
-🧑‍💻 Author
-Ankit Kumar
-🔗 GitHub
-🔗 LinkedIn
+## 🖼️ Screenshots
+
+### 🧾 CLI Log Entry Example
+![Add Note CLI](screenshots/add_note_cli.png)
+
+### 📊 Markdown Export Sample
+![Export Markdown](screenshots/markdown_export.png)
+
+
+## 👨‍💻 Author
+
+<p align="left">
+  <strong><span style="color:#2b6cb0">🔹 Ankit Kumar</span></strong><br>
+
+  <a href="https://github.com/AnkitVeerhub" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-AnkitVeerhub-black?logo=github&style=flat-square" alt="GitHub">
+  </a>
+
+  <a href="https://www.linkedin.com/in/ankit-codes/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-ankit--codes-blue?logo=linkedin&style=flat-square" alt="LinkedIn">
+  </a>
+</p>
